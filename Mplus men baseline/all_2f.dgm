@@ -1,0 +1,1555 @@
+VERSION 1.1.0
+INPUT
+TITLE:
+
+Analysis with 2 factors;
+DATA:
+file is AllData_baseline.dat;
+VARIABLE:
+names are
+epsi1
+epsi2
+epsi3
+epsi4
+epsi5
+epsi6
+epsi7
+epsi8
+epsi9
+epsi10
+epsi11
+epsi12
+epsi13
+epsi14
+epsi15
+epsi16
+epsi17
+epsi18
+epsi19
+epsi20
+epsi21
+epsi22
+epsi23
+epsi24
+epsi25
+epsi26
+epsi28
+epsi29
+epsi30
+epsi31
+epsi32
+epsi33
+epsi34
+epsi35
+epsi36
+epsi37
+epsi38
+epsi39
+epsi40
+epsi41
+epsi43
+epsi44
+epsi45
+idas1
+idas2
+idas3
+idas4
+idas5
+idas6
+idas7
+idas8
+idas9
+idas10
+idas11
+idas12
+idas14
+idas15
+idas16
+idas17
+idas18
+idas19
+idas20
+idas21
+idas23
+idas24
+idas25
+idas26
+idas27
+idas28
+idas29
+idas30
+idas31
+idas32
+idas34
+idas35
+idas36
+idas37
+idas39
+idas40
+idas41
+idas42
+idas43
+idas44
+idas45
+idas47
+idas48
+idas49
+idas50
+idas51
+idas53
+idas54
+idas55
+idas56
+idas57
+idas58
+idas59
+idas60
+idas61
+idas62
+idas63
+idas64
+idas65
+idas66
+idas67
+idas68
+idas69
+idas70
+idas71
+idas72
+idas73
+idas74
+idas75
+idas76
+idas77
+idas78
+idas79
+idas80
+idas81
+idas82
+idas83
+idas84
+idas85
+idas86
+idas87
+idas88
+idas89
+idas90
+idas91
+idas92
+idas93
+idas94
+idas95
+idas96
+idas97
+idas98
+idas99
+;
+usevariables are
+epsi1
+epsi2
+epsi3
+epsi4
+epsi5
+epsi6
+epsi7
+epsi8
+epsi9
+epsi10
+epsi11
+epsi12
+epsi13
+epsi14
+epsi15
+epsi16
+epsi17
+epsi18
+epsi19
+epsi20
+epsi21
+epsi22
+epsi23
+epsi24
+epsi25
+epsi26
+epsi28
+epsi29
+epsi30
+epsi31
+epsi32
+epsi33
+epsi34
+epsi35
+epsi36
+epsi37
+epsi38
+epsi39
+epsi40
+epsi41
+epsi43
+epsi44
+epsi45
+idas1
+idas2
+idas3
+idas4
+idas5
+idas6
+idas7
+idas8
+idas9
+idas10
+idas11
+idas12
+idas14
+idas15
+idas16
+idas17
+idas18
+idas19
+idas20
+idas21
+idas23
+idas24
+idas25
+idas26
+idas27
+idas28
+idas29
+idas30
+idas31
+idas32
+idas34
+idas35
+idas36
+idas37
+idas39
+idas40
+idas41
+idas42
+idas43
+idas44
+idas45
+idas47
+idas48
+idas49
+idas50
+idas51
+idas53
+idas54
+idas55
+idas56
+idas57
+idas58
+idas59
+idas60
+idas61
+idas62
+idas63
+idas64
+idas65
+idas66
+idas67
+idas68
+idas69
+idas70
+idas71
+idas72
+idas73
+idas74
+idas75
+idas76
+idas77
+idas78
+idas79
+idas80
+idas81
+idas82
+idas83
+idas84
+idas85
+idas86
+idas87
+idas88
+idas89
+idas90
+idas91
+idas92
+idas93
+idas94
+idas95
+idas96
+idas97
+idas98
+idas99
+;
+categorical are
+epsi1
+epsi2
+epsi3
+epsi4
+epsi5
+epsi6
+epsi7
+epsi8
+epsi9
+epsi10
+epsi11
+epsi12
+epsi13
+epsi14
+epsi15
+epsi16
+epsi17
+epsi18
+epsi19
+epsi20
+epsi21
+epsi22
+epsi23
+epsi24
+epsi25
+epsi26
+epsi28
+epsi29
+epsi30
+epsi31
+epsi32
+epsi33
+epsi34
+epsi35
+epsi36
+epsi37
+epsi38
+epsi39
+epsi40
+epsi41
+epsi43
+epsi44
+epsi45
+idas1
+idas2
+idas3
+idas4
+idas5
+idas6
+idas7
+idas8
+idas9
+idas10
+idas11
+idas12
+idas14
+idas15
+idas16
+idas17
+idas18
+idas19
+idas20
+idas21
+idas23
+idas24
+idas25
+idas26
+idas27
+idas28
+idas29
+idas30
+idas31
+idas32
+idas34
+idas35
+idas36
+idas37
+idas39
+idas40
+idas41
+idas42
+idas43
+idas44
+idas45
+idas47
+idas48
+idas49
+idas50
+idas51
+idas53
+idas54
+idas55
+idas56
+idas57
+idas58
+idas59
+idas60
+idas61
+idas62
+idas63
+idas64
+idas65
+idas66
+idas67
+idas68
+idas69
+idas70
+idas71
+idas72
+idas73
+idas74
+idas75
+idas76
+idas77
+idas78
+idas79
+idas80
+idas81
+idas82
+idas83
+idas84
+idas85
+idas86
+idas87
+idas88
+idas89
+idas90
+idas91
+idas92
+idas93
+idas94
+idas95
+idas96
+idas97
+idas98
+idas99
+;
+missing are all (999);
+ANALYSIS:
+estimator = ULSMV;
+rotation = CF-Varimax;
+OUTPUT:
+standardized;
+noserror;
+nochisquare;
+SAVEDATA:
+ SAVE=FSCORES; FILE=fscores_2.dat;
+MODEL:
+f1-f2 by epsi1-idas99(*1);
+INPUT_END
+1
+1
+1
+1
+ULSMV
+1
+GENERAL
+0
+136
+2
+0
+epsi1 epsi2 epsi3 epsi4 epsi5 epsi6 epsi7 epsi8 epsi9 epsi10 epsi11 epsi12 epsi13 epsi14 epsi15 epsi16 epsi17 epsi18 epsi19 epsi20 epsi21 epsi22 epsi23 epsi24 epsi25 epsi26 epsi28 epsi29 epsi30 epsi31 epsi32 epsi33 epsi34 epsi35 epsi36 epsi37 epsi38 epsi39 epsi40 epsi41 epsi43 epsi44 epsi45 idas1 idas2 idas3 idas4 idas5 idas6 idas7 idas8 idas9 idas10 idas11 idas12 idas14 idas15 idas16 idas17 idas18 idas19 idas20 idas21 idas23 idas24 idas25 idas26 idas27 idas28 idas29 idas30 idas31 idas32 idas34 idas35 idas36 idas37 idas39 idas40 idas41 idas42 idas43 idas44 idas45 idas47 idas48 idas49 idas50 idas51 idas53 idas54 idas55 idas56 idas57 idas58 idas59 idas60 idas61 idas62 idas63 idas64 idas65 idas66 idas67 idas68 idas69 idas70 idas71 idas72 idas73 idas74 idas75 idas76 idas77 idas78 idas79 idas80 idas81 idas82 idas83 idas84 idas85 idas86 idas87 idas88 idas89 idas90 idas91 idas92 idas93 idas94 idas95 idas96 idas97 idas98 idas99 f1 f2
+1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0
+0
+2
+f1
+epsi1 epsi2 epsi3 epsi4 epsi5 epsi6 epsi7 epsi8 epsi9 epsi10 epsi11 epsi12 epsi13 epsi14 epsi15 epsi16 epsi17 epsi18 epsi19 epsi20 epsi21 epsi22 epsi23 epsi24 epsi25 epsi26 epsi28 epsi29 epsi30 epsi31 epsi32 epsi33 epsi34 epsi35 epsi36 epsi37 epsi38 epsi39 epsi40 epsi41 epsi43 epsi44 epsi45 idas1 idas2 idas3 idas4 idas5 idas6 idas7 idas8 idas9 idas10 idas11 idas12 idas14 idas15 idas16 idas17 idas18 idas19 idas20 idas21 idas23 idas24 idas25 idas26 idas27 idas28 idas29 idas30 idas31 idas32 idas34 idas35 idas36 idas37 idas39 idas40 idas41 idas42 idas43 idas44 idas45 idas47 idas48 idas49 idas50 idas51 idas53 idas54 idas55 idas56 idas57 idas58 idas59 idas60 idas61 idas62 idas63 idas64 idas65 idas66 idas67 idas68 idas69 idas70 idas71 idas72 idas73 idas74 idas75 idas76 idas77 idas78 idas79 idas80 idas81 idas82 idas83 idas84 idas85 idas86 idas87 idas88 idas89 idas90 idas91 idas92 idas93 idas94 idas95 idas96 idas97 idas98 idas99
+f2
+epsi1 epsi2 epsi3 epsi4 epsi5 epsi6 epsi7 epsi8 epsi9 epsi10 epsi11 epsi12 epsi13 epsi14 epsi15 epsi16 epsi17 epsi18 epsi19 epsi20 epsi21 epsi22 epsi23 epsi24 epsi25 epsi26 epsi28 epsi29 epsi30 epsi31 epsi32 epsi33 epsi34 epsi35 epsi36 epsi37 epsi38 epsi39 epsi40 epsi41 epsi43 epsi44 epsi45 idas1 idas2 idas3 idas4 idas5 idas6 idas7 idas8 idas9 idas10 idas11 idas12 idas14 idas15 idas16 idas17 idas18 idas19 idas20 idas21 idas23 idas24 idas25 idas26 idas27 idas28 idas29 idas30 idas31 idas32 idas34 idas35 idas36 idas37 idas39 idas40 idas41 idas42 idas43 idas44 idas45 idas47 idas48 idas49 idas50 idas51 idas53 idas54 idas55 idas56 idas57 idas58 idas59 idas60 idas61 idas62 idas63 idas64 idas65 idas66 idas67 idas68 idas69 idas70 idas71 idas72 idas73 idas74 idas75 idas76 idas77 idas78 idas79 idas80 idas81 idas82 idas83 idas84 idas85 idas86 idas87 idas88 idas89 idas90 idas91 idas92 idas93 idas94 idas95 idas96 idas97 idas98 idas99
+1 1 f1 epsi1 0.340
+1 1 f1 epsi2 0.462
+1 1 f1 epsi3 0.300
+1 1 f1 epsi4 0.293
+1 1 f1 epsi5 0.584
+1 1 f1 epsi6 0.326
+1 1 f1 epsi7 0.720
+1 1 f1 epsi8 0.703
+1 1 f1 epsi9 0.344
+1 1 f1 epsi10 0.316
+1 1 f1 epsi11 0.479
+1 1 f1 epsi12 0.424
+1 1 f1 epsi13 0.531
+1 1 f1 epsi14 0.530
+1 1 f1 epsi15 0.502
+1 1 f1 epsi16 0.509
+1 1 f1 epsi17 0.611
+1 1 f1 epsi18 0.283
+1 1 f1 epsi19 0.362
+1 1 f1 epsi20 0.511
+1 1 f1 epsi21 0.556
+1 1 f1 epsi22 0.707
+1 1 f1 epsi23 0.412
+1 1 f1 epsi24 0.372
+1 1 f1 epsi25 0.355
+1 1 f1 epsi26 0.350
+1 1 f1 epsi28 0.418
+1 1 f1 epsi29 0.683
+1 1 f1 epsi30 0.365
+1 1 f1 epsi31 0.713
+1 1 f1 epsi32 0.509
+1 1 f1 epsi33 0.240
+1 1 f1 epsi34 0.544
+1 1 f1 epsi35 0.670
+1 1 f1 epsi36 0.437
+1 1 f1 epsi37 0.348
+1 1 f1 epsi38 0.387
+1 1 f1 epsi39 0.338
+1 1 f1 epsi40 0.513
+1 1 f1 epsi41 0.683
+1 1 f1 epsi43 0.177
+1 1 f1 epsi44 0.368
+1 1 f1 epsi45 0.391
+1 1 f1 idas1 0.081
+1 1 f1 idas2 -0.012
+1 1 f1 idas3 0.320
+1 1 f1 idas4 0.058
+1 1 f1 idas5 0.172
+1 1 f1 idas6 0.069
+1 1 f1 idas7 0.242
+1 1 f1 idas8 0.045
+1 1 f1 idas9 0.119
+1 1 f1 idas10 0.355
+1 1 f1 idas11 0.133
+1 1 f1 idas12 0.235
+1 1 f1 idas14 0.197
+1 1 f1 idas15 0.290
+1 1 f1 idas16 0.202
+1 1 f1 idas17 0.202
+1 1 f1 idas18 0.402
+1 1 f1 idas19 0.433
+1 1 f1 idas20 0.272
+1 1 f1 idas21 0.276
+1 1 f1 idas23 0.373
+1 1 f1 idas24 0.359
+1 1 f1 idas25 0.283
+1 1 f1 idas26 0.255
+1 1 f1 idas27 0.293
+1 1 f1 idas28 0.348
+1 1 f1 idas29 0.205
+1 1 f1 idas30 0.056
+1 1 f1 idas31 0.168
+1 1 f1 idas32 0.240
+1 1 f1 idas34 0.343
+1 1 f1 idas35 0.276
+1 1 f1 idas36 0.193
+1 1 f1 idas37 0.245
+1 1 f1 idas39 0.111
+1 1 f1 idas40 0.090
+1 1 f1 idas41 0.151
+1 1 f1 idas42 0.307
+1 1 f1 idas43 0.152
+1 1 f1 idas44 0.137
+1 1 f1 idas45 0.229
+1 1 f1 idas47 0.218
+1 1 f1 idas48 0.211
+1 1 f1 idas49 0.261
+1 1 f1 idas50 0.303
+1 1 f1 idas51 0.148
+1 1 f1 idas53 0.280
+1 1 f1 idas54 0.186
+1 1 f1 idas55 0.132
+1 1 f1 idas56 0.232
+1 1 f1 idas57 0.366
+1 1 f1 idas58 0.387
+1 1 f1 idas59 0.369
+1 1 f1 idas60 0.242
+1 1 f1 idas61 0.179
+1 1 f1 idas62 0.247
+1 1 f1 idas63 0.346
+1 1 f1 idas64 0.445
+1 1 f1 idas65 0.457
+1 1 f1 idas66 0.381
+1 1 f1 idas67 0.594
+1 1 f1 idas68 0.473
+1 1 f1 idas69 0.458
+1 1 f1 idas70 0.296
+1 1 f1 idas71 0.412
+1 1 f1 idas72 0.455
+1 1 f1 idas73 0.257
+1 1 f1 idas74 0.311
+1 1 f1 idas75 0.448
+1 1 f1 idas76 0.216
+1 1 f1 idas77 0.437
+1 1 f1 idas78 0.522
+1 1 f1 idas79 0.331
+1 1 f1 idas80 0.323
+1 1 f1 idas81 0.416
+1 1 f1 idas82 0.418
+1 1 f1 idas83 0.458
+1 1 f1 idas84 0.287
+1 1 f1 idas85 0.468
+1 1 f1 idas86 0.326
+1 1 f1 idas87 0.406
+1 1 f1 idas88 0.529
+1 1 f1 idas89 0.341
+1 1 f1 idas90 0.346
+1 1 f1 idas91 0.364
+1 1 f1 idas92 0.555
+1 1 f1 idas93 0.305
+1 1 f1 idas94 0.342
+1 1 f1 idas95 0.456
+1 1 f1 idas96 0.270
+1 1 f1 idas97 0.551
+1 1 f1 idas98 0.261
+1 1 f1 idas99 0.326
+1 1 f2 epsi1 0.213
+1 1 f2 epsi2 -0.240
+1 1 f2 epsi3 0.148
+1 1 f2 epsi4 0.326
+1 1 f2 epsi5 -0.135
+1 1 f2 epsi6 0.360
+1 1 f2 epsi7 -0.280
+1 1 f2 epsi8 -0.210
+1 1 f2 epsi9 0.349
+1 1 f2 epsi10 0.148
+1 1 f2 epsi11 0.111
+1 1 f2 epsi12 0.119
+1 1 f2 epsi13 0.193
+1 1 f2 epsi14 -0.223
+1 1 f2 epsi15 -0.054
+1 1 f2 epsi16 0.139
+1 1 f2 epsi17 0.058
+1 1 f2 epsi18 0.292
+1 1 f2 epsi19 0.323
+1 1 f2 epsi20 -0.146
+1 1 f2 epsi21 -0.292
+1 1 f2 epsi22 -0.401
+1 1 f2 epsi23 0.066
+1 1 f2 epsi24 0.053
+1 1 f2 epsi25 0.231
+1 1 f2 epsi26 -0.074
+1 1 f2 epsi28 0.224
+1 1 f2 epsi29 -0.142
+1 1 f2 epsi30 -0.144
+1 1 f2 epsi31 -0.373
+1 1 f2 epsi32 0.003
+1 1 f2 epsi33 0.235
+1 1 f2 epsi34 0.132
+1 1 f2 epsi35 -0.299
+1 1 f2 epsi36 0.226
+1 1 f2 epsi37 0.205
+1 1 f2 epsi38 -0.113
+1 1 f2 epsi39 0.335
+1 1 f2 epsi40 -0.287
+1 1 f2 epsi41 -0.194
+1 1 f2 epsi43 0.426
+1 1 f2 epsi44 0.307
+1 1 f2 epsi45 0.212
+1 1 f2 idas1 0.416
+1 1 f2 idas2 0.777
+1 1 f2 idas3 -0.693
+1 1 f2 idas4 0.565
+1 1 f2 idas5 0.634
+1 1 f2 idas6 0.728
+1 1 f2 idas7 0.636
+1 1 f2 idas8 0.828
+1 1 f2 idas9 0.714
+1 1 f2 idas10 -0.667
+1 1 f2 idas11 0.607
+1 1 f2 idas12 0.593
+1 1 f2 idas14 0.657
+1 1 f2 idas15 0.547
+1 1 f2 idas16 0.613
+1 1 f2 idas17 0.483
+1 1 f2 idas18 0.468
+1 1 f2 idas19 0.231
+1 1 f2 idas20 0.649
+1 1 f2 idas21 0.641
+1 1 f2 idas23 -0.604
+1 1 f2 idas24 0.240
+1 1 f2 idas25 0.437
+1 1 f2 idas26 0.465
+1 1 f2 idas27 -0.732
+1 1 f2 idas28 0.536
+1 1 f2 idas29 0.313
+1 1 f2 idas30 0.757
+1 1 f2 idas31 0.732
+1 1 f2 idas32 0.716
+1 1 f2 idas34 0.489
+1 1 f2 idas35 0.547
+1 1 f2 idas36 0.602
+1 1 f2 idas37 0.631
+1 1 f2 idas39 0.711
+1 1 f2 idas40 0.816
+1 1 f2 idas41 0.618
+1 1 f2 idas42 0.624
+1 1 f2 idas43 0.564
+1 1 f2 idas44 0.564
+1 1 f2 idas45 0.711
+1 1 f2 idas47 0.559
+1 1 f2 idas48 0.765
+1 1 f2 idas49 0.580
+1 1 f2 idas50 -0.679
+1 1 f2 idas51 0.711
+1 1 f2 idas53 -0.669
+1 1 f2 idas54 0.526
+1 1 f2 idas55 0.648
+1 1 f2 idas56 0.587
+1 1 f2 idas57 0.525
+1 1 f2 idas58 0.504
+1 1 f2 idas59 -0.675
+1 1 f2 idas60 0.524
+1 1 f2 idas61 0.733
+1 1 f2 idas62 0.576
+1 1 f2 idas63 0.379
+1 1 f2 idas64 -0.670
+1 1 f2 idas65 0.089
+1 1 f2 idas66 0.275
+1 1 f2 idas67 0.163
+1 1 f2 idas68 0.269
+1 1 f2 idas69 0.221
+1 1 f2 idas70 0.212
+1 1 f2 idas71 0.386
+1 1 f2 idas72 0.108
+1 1 f2 idas73 0.476
+1 1 f2 idas74 0.570
+1 1 f2 idas75 0.472
+1 1 f2 idas76 0.355
+1 1 f2 idas77 0.498
+1 1 f2 idas78 -0.534
+1 1 f2 idas79 0.599
+1 1 f2 idas80 0.636
+1 1 f2 idas81 0.448
+1 1 f2 idas82 0.206
+1 1 f2 idas83 0.460
+1 1 f2 idas84 0.624
+1 1 f2 idas85 0.316
+1 1 f2 idas86 0.321
+1 1 f2 idas87 0.546
+1 1 f2 idas88 0.096
+1 1 f2 idas89 0.550
+1 1 f2 idas90 0.466
+1 1 f2 idas91 0.322
+1 1 f2 idas92 -0.144
+1 1 f2 idas93 0.548
+1 1 f2 idas94 0.531
+1 1 f2 idas95 0.388
+1 1 f2 idas96 0.358
+1 1 f2 idas97 -0.169
+1 1 f2 idas98 0.207
+1 1 f2 idas99 0.472
+2 1 f2 f1 0.346
+5 1 f1 1.000
+5 1 f2 1.000
+11 1 f1 epsi1 0.340
+11 1 f1 epsi2 0.462
+11 1 f1 epsi3 0.300
+11 1 f1 epsi4 0.293
+11 1 f1 epsi5 0.584
+11 1 f1 epsi6 0.326
+11 1 f1 epsi7 0.720
+11 1 f1 epsi8 0.703
+11 1 f1 epsi9 0.344
+11 1 f1 epsi10 0.316
+11 1 f1 epsi11 0.479
+11 1 f1 epsi12 0.424
+11 1 f1 epsi13 0.531
+11 1 f1 epsi14 0.530
+11 1 f1 epsi15 0.502
+11 1 f1 epsi16 0.509
+11 1 f1 epsi17 0.611
+11 1 f1 epsi18 0.283
+11 1 f1 epsi19 0.362
+11 1 f1 epsi20 0.511
+11 1 f1 epsi21 0.556
+11 1 f1 epsi22 0.707
+11 1 f1 epsi23 0.412
+11 1 f1 epsi24 0.372
+11 1 f1 epsi25 0.355
+11 1 f1 epsi26 0.350
+11 1 f1 epsi28 0.418
+11 1 f1 epsi29 0.683
+11 1 f1 epsi30 0.365
+11 1 f1 epsi31 0.713
+11 1 f1 epsi32 0.509
+11 1 f1 epsi33 0.240
+11 1 f1 epsi34 0.544
+11 1 f1 epsi35 0.670
+11 1 f1 epsi36 0.437
+11 1 f1 epsi37 0.348
+11 1 f1 epsi38 0.387
+11 1 f1 epsi39 0.338
+11 1 f1 epsi40 0.513
+11 1 f1 epsi41 0.683
+11 1 f1 epsi43 0.177
+11 1 f1 epsi44 0.368
+11 1 f1 epsi45 0.391
+11 1 f1 idas1 0.081
+11 1 f1 idas2 -0.012
+11 1 f1 idas3 0.320
+11 1 f1 idas4 0.058
+11 1 f1 idas5 0.172
+11 1 f1 idas6 0.069
+11 1 f1 idas7 0.242
+11 1 f1 idas8 0.045
+11 1 f1 idas9 0.119
+11 1 f1 idas10 0.355
+11 1 f1 idas11 0.133
+11 1 f1 idas12 0.235
+11 1 f1 idas14 0.197
+11 1 f1 idas15 0.290
+11 1 f1 idas16 0.202
+11 1 f1 idas17 0.202
+11 1 f1 idas18 0.402
+11 1 f1 idas19 0.433
+11 1 f1 idas20 0.272
+11 1 f1 idas21 0.276
+11 1 f1 idas23 0.373
+11 1 f1 idas24 0.359
+11 1 f1 idas25 0.283
+11 1 f1 idas26 0.255
+11 1 f1 idas27 0.293
+11 1 f1 idas28 0.348
+11 1 f1 idas29 0.205
+11 1 f1 idas30 0.056
+11 1 f1 idas31 0.168
+11 1 f1 idas32 0.240
+11 1 f1 idas34 0.343
+11 1 f1 idas35 0.276
+11 1 f1 idas36 0.193
+11 1 f1 idas37 0.245
+11 1 f1 idas39 0.111
+11 1 f1 idas40 0.090
+11 1 f1 idas41 0.151
+11 1 f1 idas42 0.307
+11 1 f1 idas43 0.152
+11 1 f1 idas44 0.137
+11 1 f1 idas45 0.229
+11 1 f1 idas47 0.218
+11 1 f1 idas48 0.211
+11 1 f1 idas49 0.261
+11 1 f1 idas50 0.303
+11 1 f1 idas51 0.148
+11 1 f1 idas53 0.280
+11 1 f1 idas54 0.186
+11 1 f1 idas55 0.132
+11 1 f1 idas56 0.232
+11 1 f1 idas57 0.366
+11 1 f1 idas58 0.387
+11 1 f1 idas59 0.369
+11 1 f1 idas60 0.242
+11 1 f1 idas61 0.179
+11 1 f1 idas62 0.247
+11 1 f1 idas63 0.346
+11 1 f1 idas64 0.445
+11 1 f1 idas65 0.457
+11 1 f1 idas66 0.381
+11 1 f1 idas67 0.594
+11 1 f1 idas68 0.473
+11 1 f1 idas69 0.458
+11 1 f1 idas70 0.296
+11 1 f1 idas71 0.412
+11 1 f1 idas72 0.455
+11 1 f1 idas73 0.257
+11 1 f1 idas74 0.311
+11 1 f1 idas75 0.448
+11 1 f1 idas76 0.216
+11 1 f1 idas77 0.437
+11 1 f1 idas78 0.522
+11 1 f1 idas79 0.331
+11 1 f1 idas80 0.323
+11 1 f1 idas81 0.416
+11 1 f1 idas82 0.418
+11 1 f1 idas83 0.458
+11 1 f1 idas84 0.287
+11 1 f1 idas85 0.468
+11 1 f1 idas86 0.326
+11 1 f1 idas87 0.406
+11 1 f1 idas88 0.529
+11 1 f1 idas89 0.341
+11 1 f1 idas90 0.346
+11 1 f1 idas91 0.364
+11 1 f1 idas92 0.555
+11 1 f1 idas93 0.305
+11 1 f1 idas94 0.342
+11 1 f1 idas95 0.456
+11 1 f1 idas96 0.270
+11 1 f1 idas97 0.551
+11 1 f1 idas98 0.261
+11 1 f1 idas99 0.326
+11 1 f2 epsi1 0.213
+11 1 f2 epsi2 -0.240
+11 1 f2 epsi3 0.148
+11 1 f2 epsi4 0.326
+11 1 f2 epsi5 -0.135
+11 1 f2 epsi6 0.360
+11 1 f2 epsi7 -0.280
+11 1 f2 epsi8 -0.210
+11 1 f2 epsi9 0.349
+11 1 f2 epsi10 0.148
+11 1 f2 epsi11 0.111
+11 1 f2 epsi12 0.119
+11 1 f2 epsi13 0.193
+11 1 f2 epsi14 -0.223
+11 1 f2 epsi15 -0.054
+11 1 f2 epsi16 0.139
+11 1 f2 epsi17 0.058
+11 1 f2 epsi18 0.292
+11 1 f2 epsi19 0.323
+11 1 f2 epsi20 -0.146
+11 1 f2 epsi21 -0.292
+11 1 f2 epsi22 -0.401
+11 1 f2 epsi23 0.066
+11 1 f2 epsi24 0.053
+11 1 f2 epsi25 0.231
+11 1 f2 epsi26 -0.074
+11 1 f2 epsi28 0.224
+11 1 f2 epsi29 -0.142
+11 1 f2 epsi30 -0.144
+11 1 f2 epsi31 -0.373
+11 1 f2 epsi32 0.003
+11 1 f2 epsi33 0.235
+11 1 f2 epsi34 0.132
+11 1 f2 epsi35 -0.299
+11 1 f2 epsi36 0.226
+11 1 f2 epsi37 0.205
+11 1 f2 epsi38 -0.113
+11 1 f2 epsi39 0.335
+11 1 f2 epsi40 -0.287
+11 1 f2 epsi41 -0.194
+11 1 f2 epsi43 0.426
+11 1 f2 epsi44 0.307
+11 1 f2 epsi45 0.212
+11 1 f2 idas1 0.416
+11 1 f2 idas2 0.777
+11 1 f2 idas3 -0.693
+11 1 f2 idas4 0.565
+11 1 f2 idas5 0.634
+11 1 f2 idas6 0.728
+11 1 f2 idas7 0.636
+11 1 f2 idas8 0.828
+11 1 f2 idas9 0.714
+11 1 f2 idas10 -0.667
+11 1 f2 idas11 0.607
+11 1 f2 idas12 0.593
+11 1 f2 idas14 0.657
+11 1 f2 idas15 0.547
+11 1 f2 idas16 0.613
+11 1 f2 idas17 0.483
+11 1 f2 idas18 0.468
+11 1 f2 idas19 0.231
+11 1 f2 idas20 0.649
+11 1 f2 idas21 0.641
+11 1 f2 idas23 -0.604
+11 1 f2 idas24 0.240
+11 1 f2 idas25 0.437
+11 1 f2 idas26 0.465
+11 1 f2 idas27 -0.732
+11 1 f2 idas28 0.536
+11 1 f2 idas29 0.313
+11 1 f2 idas30 0.757
+11 1 f2 idas31 0.732
+11 1 f2 idas32 0.716
+11 1 f2 idas34 0.489
+11 1 f2 idas35 0.547
+11 1 f2 idas36 0.602
+11 1 f2 idas37 0.631
+11 1 f2 idas39 0.711
+11 1 f2 idas40 0.816
+11 1 f2 idas41 0.618
+11 1 f2 idas42 0.624
+11 1 f2 idas43 0.564
+11 1 f2 idas44 0.564
+11 1 f2 idas45 0.711
+11 1 f2 idas47 0.559
+11 1 f2 idas48 0.765
+11 1 f2 idas49 0.580
+11 1 f2 idas50 -0.679
+11 1 f2 idas51 0.711
+11 1 f2 idas53 -0.669
+11 1 f2 idas54 0.526
+11 1 f2 idas55 0.648
+11 1 f2 idas56 0.587
+11 1 f2 idas57 0.525
+11 1 f2 idas58 0.504
+11 1 f2 idas59 -0.675
+11 1 f2 idas60 0.524
+11 1 f2 idas61 0.733
+11 1 f2 idas62 0.576
+11 1 f2 idas63 0.379
+11 1 f2 idas64 -0.670
+11 1 f2 idas65 0.089
+11 1 f2 idas66 0.275
+11 1 f2 idas67 0.163
+11 1 f2 idas68 0.269
+11 1 f2 idas69 0.221
+11 1 f2 idas70 0.212
+11 1 f2 idas71 0.386
+11 1 f2 idas72 0.108
+11 1 f2 idas73 0.476
+11 1 f2 idas74 0.570
+11 1 f2 idas75 0.472
+11 1 f2 idas76 0.355
+11 1 f2 idas77 0.498
+11 1 f2 idas78 -0.534
+11 1 f2 idas79 0.599
+11 1 f2 idas80 0.636
+11 1 f2 idas81 0.448
+11 1 f2 idas82 0.206
+11 1 f2 idas83 0.460
+11 1 f2 idas84 0.624
+11 1 f2 idas85 0.316
+11 1 f2 idas86 0.321
+11 1 f2 idas87 0.546
+11 1 f2 idas88 0.096
+11 1 f2 idas89 0.550
+11 1 f2 idas90 0.466
+11 1 f2 idas91 0.322
+11 1 f2 idas92 -0.144
+11 1 f2 idas93 0.548
+11 1 f2 idas94 0.531
+11 1 f2 idas95 0.388
+11 1 f2 idas96 0.358
+11 1 f2 idas97 -0.169
+11 1 f2 idas98 0.207
+11 1 f2 idas99 0.472
+12 1 f2 f1 0.346
+15 1 f1 1.000
+15 1 f2 1.000
+21 1 f1 epsi1 0.340
+21 1 f1 epsi2 0.462
+21 1 f1 epsi3 0.300
+21 1 f1 epsi4 0.293
+21 1 f1 epsi5 0.584
+21 1 f1 epsi6 0.326
+21 1 f1 epsi7 0.720
+21 1 f1 epsi8 0.703
+21 1 f1 epsi9 0.344
+21 1 f1 epsi10 0.316
+21 1 f1 epsi11 0.479
+21 1 f1 epsi12 0.424
+21 1 f1 epsi13 0.531
+21 1 f1 epsi14 0.530
+21 1 f1 epsi15 0.502
+21 1 f1 epsi16 0.509
+21 1 f1 epsi17 0.611
+21 1 f1 epsi18 0.283
+21 1 f1 epsi19 0.362
+21 1 f1 epsi20 0.511
+21 1 f1 epsi21 0.556
+21 1 f1 epsi22 0.707
+21 1 f1 epsi23 0.412
+21 1 f1 epsi24 0.372
+21 1 f1 epsi25 0.355
+21 1 f1 epsi26 0.350
+21 1 f1 epsi28 0.418
+21 1 f1 epsi29 0.683
+21 1 f1 epsi30 0.365
+21 1 f1 epsi31 0.713
+21 1 f1 epsi32 0.509
+21 1 f1 epsi33 0.240
+21 1 f1 epsi34 0.544
+21 1 f1 epsi35 0.670
+21 1 f1 epsi36 0.437
+21 1 f1 epsi37 0.348
+21 1 f1 epsi38 0.387
+21 1 f1 epsi39 0.338
+21 1 f1 epsi40 0.513
+21 1 f1 epsi41 0.683
+21 1 f1 epsi43 0.177
+21 1 f1 epsi44 0.368
+21 1 f1 epsi45 0.391
+21 1 f1 idas1 0.081
+21 1 f1 idas2 -0.012
+21 1 f1 idas3 0.320
+21 1 f1 idas4 0.058
+21 1 f1 idas5 0.172
+21 1 f1 idas6 0.069
+21 1 f1 idas7 0.242
+21 1 f1 idas8 0.045
+21 1 f1 idas9 0.119
+21 1 f1 idas10 0.355
+21 1 f1 idas11 0.133
+21 1 f1 idas12 0.235
+21 1 f1 idas14 0.197
+21 1 f1 idas15 0.290
+21 1 f1 idas16 0.202
+21 1 f1 idas17 0.202
+21 1 f1 idas18 0.402
+21 1 f1 idas19 0.433
+21 1 f1 idas20 0.272
+21 1 f1 idas21 0.276
+21 1 f1 idas23 0.373
+21 1 f1 idas24 0.359
+21 1 f1 idas25 0.283
+21 1 f1 idas26 0.255
+21 1 f1 idas27 0.293
+21 1 f1 idas28 0.348
+21 1 f1 idas29 0.205
+21 1 f1 idas30 0.056
+21 1 f1 idas31 0.168
+21 1 f1 idas32 0.240
+21 1 f1 idas34 0.343
+21 1 f1 idas35 0.276
+21 1 f1 idas36 0.193
+21 1 f1 idas37 0.245
+21 1 f1 idas39 0.111
+21 1 f1 idas40 0.090
+21 1 f1 idas41 0.151
+21 1 f1 idas42 0.307
+21 1 f1 idas43 0.152
+21 1 f1 idas44 0.137
+21 1 f1 idas45 0.229
+21 1 f1 idas47 0.218
+21 1 f1 idas48 0.211
+21 1 f1 idas49 0.261
+21 1 f1 idas50 0.303
+21 1 f1 idas51 0.148
+21 1 f1 idas53 0.280
+21 1 f1 idas54 0.186
+21 1 f1 idas55 0.132
+21 1 f1 idas56 0.232
+21 1 f1 idas57 0.366
+21 1 f1 idas58 0.387
+21 1 f1 idas59 0.369
+21 1 f1 idas60 0.242
+21 1 f1 idas61 0.179
+21 1 f1 idas62 0.247
+21 1 f1 idas63 0.346
+21 1 f1 idas64 0.445
+21 1 f1 idas65 0.457
+21 1 f1 idas66 0.381
+21 1 f1 idas67 0.594
+21 1 f1 idas68 0.473
+21 1 f1 idas69 0.458
+21 1 f1 idas70 0.296
+21 1 f1 idas71 0.412
+21 1 f1 idas72 0.455
+21 1 f1 idas73 0.257
+21 1 f1 idas74 0.311
+21 1 f1 idas75 0.448
+21 1 f1 idas76 0.216
+21 1 f1 idas77 0.437
+21 1 f1 idas78 0.522
+21 1 f1 idas79 0.331
+21 1 f1 idas80 0.323
+21 1 f1 idas81 0.416
+21 1 f1 idas82 0.418
+21 1 f1 idas83 0.458
+21 1 f1 idas84 0.287
+21 1 f1 idas85 0.468
+21 1 f1 idas86 0.326
+21 1 f1 idas87 0.406
+21 1 f1 idas88 0.529
+21 1 f1 idas89 0.341
+21 1 f1 idas90 0.346
+21 1 f1 idas91 0.364
+21 1 f1 idas92 0.555
+21 1 f1 idas93 0.305
+21 1 f1 idas94 0.342
+21 1 f1 idas95 0.456
+21 1 f1 idas96 0.270
+21 1 f1 idas97 0.551
+21 1 f1 idas98 0.261
+21 1 f1 idas99 0.326
+21 1 f2 epsi1 0.213
+21 1 f2 epsi2 -0.240
+21 1 f2 epsi3 0.148
+21 1 f2 epsi4 0.326
+21 1 f2 epsi5 -0.135
+21 1 f2 epsi6 0.360
+21 1 f2 epsi7 -0.280
+21 1 f2 epsi8 -0.210
+21 1 f2 epsi9 0.349
+21 1 f2 epsi10 0.148
+21 1 f2 epsi11 0.111
+21 1 f2 epsi12 0.119
+21 1 f2 epsi13 0.193
+21 1 f2 epsi14 -0.223
+21 1 f2 epsi15 -0.054
+21 1 f2 epsi16 0.139
+21 1 f2 epsi17 0.058
+21 1 f2 epsi18 0.292
+21 1 f2 epsi19 0.323
+21 1 f2 epsi20 -0.146
+21 1 f2 epsi21 -0.292
+21 1 f2 epsi22 -0.401
+21 1 f2 epsi23 0.066
+21 1 f2 epsi24 0.053
+21 1 f2 epsi25 0.231
+21 1 f2 epsi26 -0.074
+21 1 f2 epsi28 0.224
+21 1 f2 epsi29 -0.142
+21 1 f2 epsi30 -0.144
+21 1 f2 epsi31 -0.373
+21 1 f2 epsi32 0.003
+21 1 f2 epsi33 0.235
+21 1 f2 epsi34 0.132
+21 1 f2 epsi35 -0.299
+21 1 f2 epsi36 0.226
+21 1 f2 epsi37 0.205
+21 1 f2 epsi38 -0.113
+21 1 f2 epsi39 0.335
+21 1 f2 epsi40 -0.287
+21 1 f2 epsi41 -0.194
+21 1 f2 epsi43 0.426
+21 1 f2 epsi44 0.307
+21 1 f2 epsi45 0.212
+21 1 f2 idas1 0.416
+21 1 f2 idas2 0.777
+21 1 f2 idas3 -0.693
+21 1 f2 idas4 0.565
+21 1 f2 idas5 0.634
+21 1 f2 idas6 0.728
+21 1 f2 idas7 0.636
+21 1 f2 idas8 0.828
+21 1 f2 idas9 0.714
+21 1 f2 idas10 -0.667
+21 1 f2 idas11 0.607
+21 1 f2 idas12 0.593
+21 1 f2 idas14 0.657
+21 1 f2 idas15 0.547
+21 1 f2 idas16 0.613
+21 1 f2 idas17 0.483
+21 1 f2 idas18 0.468
+21 1 f2 idas19 0.231
+21 1 f2 idas20 0.649
+21 1 f2 idas21 0.641
+21 1 f2 idas23 -0.604
+21 1 f2 idas24 0.240
+21 1 f2 idas25 0.437
+21 1 f2 idas26 0.465
+21 1 f2 idas27 -0.732
+21 1 f2 idas28 0.536
+21 1 f2 idas29 0.313
+21 1 f2 idas30 0.757
+21 1 f2 idas31 0.732
+21 1 f2 idas32 0.716
+21 1 f2 idas34 0.489
+21 1 f2 idas35 0.547
+21 1 f2 idas36 0.602
+21 1 f2 idas37 0.631
+21 1 f2 idas39 0.711
+21 1 f2 idas40 0.816
+21 1 f2 idas41 0.618
+21 1 f2 idas42 0.624
+21 1 f2 idas43 0.564
+21 1 f2 idas44 0.564
+21 1 f2 idas45 0.711
+21 1 f2 idas47 0.559
+21 1 f2 idas48 0.765
+21 1 f2 idas49 0.580
+21 1 f2 idas50 -0.679
+21 1 f2 idas51 0.711
+21 1 f2 idas53 -0.669
+21 1 f2 idas54 0.526
+21 1 f2 idas55 0.648
+21 1 f2 idas56 0.587
+21 1 f2 idas57 0.525
+21 1 f2 idas58 0.504
+21 1 f2 idas59 -0.675
+21 1 f2 idas60 0.524
+21 1 f2 idas61 0.733
+21 1 f2 idas62 0.576
+21 1 f2 idas63 0.379
+21 1 f2 idas64 -0.670
+21 1 f2 idas65 0.089
+21 1 f2 idas66 0.275
+21 1 f2 idas67 0.163
+21 1 f2 idas68 0.269
+21 1 f2 idas69 0.221
+21 1 f2 idas70 0.212
+21 1 f2 idas71 0.386
+21 1 f2 idas72 0.108
+21 1 f2 idas73 0.476
+21 1 f2 idas74 0.570
+21 1 f2 idas75 0.472
+21 1 f2 idas76 0.355
+21 1 f2 idas77 0.498
+21 1 f2 idas78 -0.534
+21 1 f2 idas79 0.599
+21 1 f2 idas80 0.636
+21 1 f2 idas81 0.448
+21 1 f2 idas82 0.206
+21 1 f2 idas83 0.460
+21 1 f2 idas84 0.624
+21 1 f2 idas85 0.316
+21 1 f2 idas86 0.321
+21 1 f2 idas87 0.546
+21 1 f2 idas88 0.096
+21 1 f2 idas89 0.550
+21 1 f2 idas90 0.466
+21 1 f2 idas91 0.322
+21 1 f2 idas92 -0.144
+21 1 f2 idas93 0.548
+21 1 f2 idas94 0.531
+21 1 f2 idas95 0.388
+21 1 f2 idas96 0.358
+21 1 f2 idas97 -0.169
+21 1 f2 idas98 0.207
+21 1 f2 idas99 0.472
+22 1 f2 f1 0.346
+25 1 f1 1.000
+25 1 f2 1.000
+31 1 f1 epsi1 0.340
+31 1 f1 epsi2 0.462
+31 1 f1 epsi3 0.300
+31 1 f1 epsi4 0.293
+31 1 f1 epsi5 0.584
+31 1 f1 epsi6 0.326
+31 1 f1 epsi7 0.720
+31 1 f1 epsi8 0.703
+31 1 f1 epsi9 0.344
+31 1 f1 epsi10 0.316
+31 1 f1 epsi11 0.479
+31 1 f1 epsi12 0.424
+31 1 f1 epsi13 0.531
+31 1 f1 epsi14 0.530
+31 1 f1 epsi15 0.502
+31 1 f1 epsi16 0.509
+31 1 f1 epsi17 0.611
+31 1 f1 epsi18 0.283
+31 1 f1 epsi19 0.362
+31 1 f1 epsi20 0.511
+31 1 f1 epsi21 0.556
+31 1 f1 epsi22 0.707
+31 1 f1 epsi23 0.412
+31 1 f1 epsi24 0.372
+31 1 f1 epsi25 0.355
+31 1 f1 epsi26 0.350
+31 1 f1 epsi28 0.418
+31 1 f1 epsi29 0.683
+31 1 f1 epsi30 0.365
+31 1 f1 epsi31 0.713
+31 1 f1 epsi32 0.509
+31 1 f1 epsi33 0.240
+31 1 f1 epsi34 0.544
+31 1 f1 epsi35 0.670
+31 1 f1 epsi36 0.437
+31 1 f1 epsi37 0.348
+31 1 f1 epsi38 0.387
+31 1 f1 epsi39 0.338
+31 1 f1 epsi40 0.513
+31 1 f1 epsi41 0.683
+31 1 f1 epsi43 0.177
+31 1 f1 epsi44 0.368
+31 1 f1 epsi45 0.391
+31 1 f1 idas1 0.081
+31 1 f1 idas2 -0.012
+31 1 f1 idas3 0.320
+31 1 f1 idas4 0.058
+31 1 f1 idas5 0.172
+31 1 f1 idas6 0.069
+31 1 f1 idas7 0.242
+31 1 f1 idas8 0.045
+31 1 f1 idas9 0.119
+31 1 f1 idas10 0.355
+31 1 f1 idas11 0.133
+31 1 f1 idas12 0.235
+31 1 f1 idas14 0.197
+31 1 f1 idas15 0.290
+31 1 f1 idas16 0.202
+31 1 f1 idas17 0.202
+31 1 f1 idas18 0.402
+31 1 f1 idas19 0.433
+31 1 f1 idas20 0.272
+31 1 f1 idas21 0.276
+31 1 f1 idas23 0.373
+31 1 f1 idas24 0.359
+31 1 f1 idas25 0.283
+31 1 f1 idas26 0.255
+31 1 f1 idas27 0.293
+31 1 f1 idas28 0.348
+31 1 f1 idas29 0.205
+31 1 f1 idas30 0.056
+31 1 f1 idas31 0.168
+31 1 f1 idas32 0.240
+31 1 f1 idas34 0.343
+31 1 f1 idas35 0.276
+31 1 f1 idas36 0.193
+31 1 f1 idas37 0.245
+31 1 f1 idas39 0.111
+31 1 f1 idas40 0.090
+31 1 f1 idas41 0.151
+31 1 f1 idas42 0.307
+31 1 f1 idas43 0.152
+31 1 f1 idas44 0.137
+31 1 f1 idas45 0.229
+31 1 f1 idas47 0.218
+31 1 f1 idas48 0.211
+31 1 f1 idas49 0.261
+31 1 f1 idas50 0.303
+31 1 f1 idas51 0.148
+31 1 f1 idas53 0.280
+31 1 f1 idas54 0.186
+31 1 f1 idas55 0.132
+31 1 f1 idas56 0.232
+31 1 f1 idas57 0.366
+31 1 f1 idas58 0.387
+31 1 f1 idas59 0.369
+31 1 f1 idas60 0.242
+31 1 f1 idas61 0.179
+31 1 f1 idas62 0.247
+31 1 f1 idas63 0.346
+31 1 f1 idas64 0.445
+31 1 f1 idas65 0.457
+31 1 f1 idas66 0.381
+31 1 f1 idas67 0.594
+31 1 f1 idas68 0.473
+31 1 f1 idas69 0.458
+31 1 f1 idas70 0.296
+31 1 f1 idas71 0.412
+31 1 f1 idas72 0.455
+31 1 f1 idas73 0.257
+31 1 f1 idas74 0.311
+31 1 f1 idas75 0.448
+31 1 f1 idas76 0.216
+31 1 f1 idas77 0.437
+31 1 f1 idas78 0.522
+31 1 f1 idas79 0.331
+31 1 f1 idas80 0.323
+31 1 f1 idas81 0.416
+31 1 f1 idas82 0.418
+31 1 f1 idas83 0.458
+31 1 f1 idas84 0.287
+31 1 f1 idas85 0.468
+31 1 f1 idas86 0.326
+31 1 f1 idas87 0.406
+31 1 f1 idas88 0.529
+31 1 f1 idas89 0.341
+31 1 f1 idas90 0.346
+31 1 f1 idas91 0.364
+31 1 f1 idas92 0.555
+31 1 f1 idas93 0.305
+31 1 f1 idas94 0.342
+31 1 f1 idas95 0.456
+31 1 f1 idas96 0.270
+31 1 f1 idas97 0.551
+31 1 f1 idas98 0.261
+31 1 f1 idas99 0.326
+31 1 f2 epsi1 0.213
+31 1 f2 epsi2 -0.240
+31 1 f2 epsi3 0.148
+31 1 f2 epsi4 0.326
+31 1 f2 epsi5 -0.135
+31 1 f2 epsi6 0.360
+31 1 f2 epsi7 -0.280
+31 1 f2 epsi8 -0.210
+31 1 f2 epsi9 0.349
+31 1 f2 epsi10 0.148
+31 1 f2 epsi11 0.111
+31 1 f2 epsi12 0.119
+31 1 f2 epsi13 0.193
+31 1 f2 epsi14 -0.223
+31 1 f2 epsi15 -0.054
+31 1 f2 epsi16 0.139
+31 1 f2 epsi17 0.058
+31 1 f2 epsi18 0.292
+31 1 f2 epsi19 0.323
+31 1 f2 epsi20 -0.146
+31 1 f2 epsi21 -0.292
+31 1 f2 epsi22 -0.401
+31 1 f2 epsi23 0.066
+31 1 f2 epsi24 0.053
+31 1 f2 epsi25 0.231
+31 1 f2 epsi26 -0.074
+31 1 f2 epsi28 0.224
+31 1 f2 epsi29 -0.142
+31 1 f2 epsi30 -0.144
+31 1 f2 epsi31 -0.373
+31 1 f2 epsi32 0.003
+31 1 f2 epsi33 0.235
+31 1 f2 epsi34 0.132
+31 1 f2 epsi35 -0.299
+31 1 f2 epsi36 0.226
+31 1 f2 epsi37 0.205
+31 1 f2 epsi38 -0.113
+31 1 f2 epsi39 0.335
+31 1 f2 epsi40 -0.287
+31 1 f2 epsi41 -0.194
+31 1 f2 epsi43 0.426
+31 1 f2 epsi44 0.307
+31 1 f2 epsi45 0.212
+31 1 f2 idas1 0.416
+31 1 f2 idas2 0.777
+31 1 f2 idas3 -0.693
+31 1 f2 idas4 0.565
+31 1 f2 idas5 0.634
+31 1 f2 idas6 0.728
+31 1 f2 idas7 0.636
+31 1 f2 idas8 0.828
+31 1 f2 idas9 0.714
+31 1 f2 idas10 -0.667
+31 1 f2 idas11 0.607
+31 1 f2 idas12 0.593
+31 1 f2 idas14 0.657
+31 1 f2 idas15 0.547
+31 1 f2 idas16 0.613
+31 1 f2 idas17 0.483
+31 1 f2 idas18 0.468
+31 1 f2 idas19 0.231
+31 1 f2 idas20 0.649
+31 1 f2 idas21 0.641
+31 1 f2 idas23 -0.604
+31 1 f2 idas24 0.240
+31 1 f2 idas25 0.437
+31 1 f2 idas26 0.465
+31 1 f2 idas27 -0.732
+31 1 f2 idas28 0.536
+31 1 f2 idas29 0.313
+31 1 f2 idas30 0.757
+31 1 f2 idas31 0.732
+31 1 f2 idas32 0.716
+31 1 f2 idas34 0.489
+31 1 f2 idas35 0.547
+31 1 f2 idas36 0.602
+31 1 f2 idas37 0.631
+31 1 f2 idas39 0.711
+31 1 f2 idas40 0.816
+31 1 f2 idas41 0.618
+31 1 f2 idas42 0.624
+31 1 f2 idas43 0.564
+31 1 f2 idas44 0.564
+31 1 f2 idas45 0.711
+31 1 f2 idas47 0.559
+31 1 f2 idas48 0.765
+31 1 f2 idas49 0.580
+31 1 f2 idas50 -0.679
+31 1 f2 idas51 0.711
+31 1 f2 idas53 -0.669
+31 1 f2 idas54 0.526
+31 1 f2 idas55 0.648
+31 1 f2 idas56 0.587
+31 1 f2 idas57 0.525
+31 1 f2 idas58 0.504
+31 1 f2 idas59 -0.675
+31 1 f2 idas60 0.524
+31 1 f2 idas61 0.733
+31 1 f2 idas62 0.576
+31 1 f2 idas63 0.379
+31 1 f2 idas64 -0.670
+31 1 f2 idas65 0.089
+31 1 f2 idas66 0.275
+31 1 f2 idas67 0.163
+31 1 f2 idas68 0.269
+31 1 f2 idas69 0.221
+31 1 f2 idas70 0.212
+31 1 f2 idas71 0.386
+31 1 f2 idas72 0.108
+31 1 f2 idas73 0.476
+31 1 f2 idas74 0.570
+31 1 f2 idas75 0.472
+31 1 f2 idas76 0.355
+31 1 f2 idas77 0.498
+31 1 f2 idas78 -0.534
+31 1 f2 idas79 0.599
+31 1 f2 idas80 0.636
+31 1 f2 idas81 0.448
+31 1 f2 idas82 0.206
+31 1 f2 idas83 0.460
+31 1 f2 idas84 0.624
+31 1 f2 idas85 0.316
+31 1 f2 idas86 0.321
+31 1 f2 idas87 0.546
+31 1 f2 idas88 0.096
+31 1 f2 idas89 0.550
+31 1 f2 idas90 0.466
+31 1 f2 idas91 0.322
+31 1 f2 idas92 -0.144
+31 1 f2 idas93 0.548
+31 1 f2 idas94 0.531
+31 1 f2 idas95 0.388
+31 1 f2 idas96 0.358
+31 1 f2 idas97 -0.169
+31 1 f2 idas98 0.207
+31 1 f2 idas99 0.472
+32 1 f2 f1 0.346
+35 1 f1 1.000
+35 1 f2 1.000
